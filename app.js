@@ -47,10 +47,12 @@ function startTimer() {
 
 buttonStart.onclick = function () {
     interval = setInterval(startTimer);
+    document.getElementById('button-start').disabled = true;
 }
 
 buttonStop.onclick = function () {
     clearInterval(interval);
+    document.getElementById('button-start').disabled = false;
 }
 
 buttonReset.onclick = function () {
@@ -63,4 +65,5 @@ buttonReset.onclick = function () {
     appendMinutes.innerHTML = minutes;
     appendSeconds.innerHTML = seconds;
     appendTens.innerHTML = tens;
+    document.getElementById('button-start').disabled = false;
 }
