@@ -1,4 +1,4 @@
 # stopwatch
 ⌚Stopwatch | Using HTM, CSS, JavaScript ⌚
-<img scr="" alt="">
-![simple-calculator](https://user-images.githubusercontent.com/79104097/134855004-771f826e-2284-41b5-9465-461a802fadb2.png)
+
+![stopwatch](https://user-images.githubusercontent.com/79104097/134855760-b8c92ae8-3cea-487b-8f16-604b34c29ae4.png)
