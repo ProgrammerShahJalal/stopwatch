@@ -46,9 +46,10 @@ function startTimer() {
 }
 
 buttonStart.onclick = function () {
-    interval = setInterval(startTimer);
+    interval = setInterval(startTimer, 10); // Run startTimer every 10 milliseconds
     document.getElementById('button-start').disabled = true;
 }
+
 
 buttonStop.onclick = function () {
     clearInterval(interval);
